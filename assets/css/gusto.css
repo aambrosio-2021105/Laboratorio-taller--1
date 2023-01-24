@@ -1,0 +1,161 @@
+.header .navbar {
+    background-color: transparent !important;
+  }
+  header{
+    background-image: url(https://thumbs.gfycat.com/GrizzledDismalHare-size_restricted.gif);
+    background-repeat : no-repeat;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #FFF;
+    text-align: center;
+    padding: 15px;
+  }
+.navBa{
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    font-family: Times,serif;
+}
+#tutu2{
+    background: linear-gradient(to right, #020024, #0c7112,#00d4ff);
+
+}
+body{
+  background-image: url(https://thumbs.gfycat.com/GrizzledDismalHare-size_restricted.gif);
+  background-repeat : no-repeat;
+  width: 100%;
+  height: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+
+  text-align: center;
+  padding: 15px;
+}
+#titu{
+  color: #000;
+  font-family: Times,serif;
+  box-shadow: #2b96cc;
+  font-size: 20px;
+  font-family: monospace;
+}
+.letras{
+  color: #fff;
+
+  font-family: serif;
+}
+#lista2 {
+  counter-reset: li; 
+  list-style: none; 
+  *list-style: decimal; 
+  font: 20px 'trebuchet MS', 'lucida sans';
+  padding: 0;
+  margin-bottom: 16em;
+  text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+
+#lista2 ol {
+  margin: 0 0 0 2em; 
+}
+
+#lista2 .list{
+  position: relative;
+  display: block;
+  padding: .4em .4em .4em 2em;
+  *padding: .4em;
+  margin: .5em 0;
+  background: #ddd;
+  color: #444;
+  text-decoration: none;
+  border-radius: .3em;
+ 
+}
+
+#lista2 .list:hover{
+  background: #eee;
+}
+
+#lista2 .list:hover:before{
+  transform: rotate(360deg);  
+}
+
+#lista2 .list:before{
+  content: counter(li);
+  counter-increment: li;
+  position: absolute; 
+  left: -1.3em;
+  top: 50%;
+  margin-top: -1.3em;
+  background: #87ceeb;
+  height: 2em;
+  width: 2em;
+  line-height: 2em;
+  border: .3em solid #fff;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 2em;
+  transition: all .3s ease-out;
+}
+
+
+
+.list .dis1 {
+  height: 100px;
+}
+.list:hover .dis1 {
+  height: 300px;
+  overflow-y: hidden;
+  transition: height 0.4s linear;
+}
+
+
+.list .div1 {
+  height: 100px;
+}
+.list:hover .div1 {
+  height: 300px;
+  overflow-y: hidden;
+  transition: height 0.4s linear;
+}
+
+.list .div2 {
+  height: 100px;
+}
+.list:hover .div2 {
+  height: 300px;
+  overflow-y: hidden;
+  transition: height 0.4s linear;
+}
+
+.list .div3 {
+  height: 100px;
+}
+.list:hover .div3 {
+  height: 300px;
+  overflow-y: hidden;
+  transition: height 0.4s linear;
+}
+.colr{
+  background-image: linear-gradient(225deg, #00fcff 0, #00daff 25%, #10b7f8 50%, #2b96cc 75%, #3077a2 100%);
+}
+.colr1{
+  background-image: radial-gradient(circle at 29.99% 92.9%, #fff75c 0, #ffe657 12.5%, #ffd352 25%, #febf4f 37.5%, #f1aa4b 50%, #e29648 62.5%, #d48446 75%, #c77545 87.5%, #bb6944 100%);
+
+}
+.colr2{
+  background-image: radial-gradient(circle at 82.95% 17.05%, #ffff4e 0, #ffff40 12.5%, #ffff35 25%, #fffc2c 37.5%, #d7e125 50%, #acc520 62.5%, #87ad1d 75%, #67961c 87.5%, #4b831b 100%);
+}
+.colr3{
+  background-image: radial-gradient(circle at 60% 32.68%, #ffc23f 0, #ffb548 8.33%, #ffa54f 16.67%, #ff9456 25%, #ff825b 33.33%, #fd705e 41.67%, #e55d5d 50%, #cb4c5b 58.33%, #b43f59 66.67%, #a03557 75%, #8f2e57 83.33%, #802a57 91.67%, #742859 100%);
+}
+#cuerpo{
+  background-color:  #32fac7;
+  text-align: center;
+}
+.oculto{
+  display: none;
+}
+.list:hover .oculto{
+  display: block;
+}
