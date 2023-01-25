@@ -33,16 +33,16 @@ body{
   text-align: center;
   padding: 15px;
 }
-#titu{
-  color: #000;
-  font-family: Times,serif;
-  box-shadow: #2b96cc;
-  font-size: 20px;
-  font-family: monospace;
+.titu{
+   font: bold 50px/1 lobster;
+    font-family: 'Lobster';
+    text-transform: uppercase;
+    color:#fff;
+    text-shadow: 0 12px 0#23376d;;
 }
 .letras{
   color: #fff;
-
+  font-size: 15px;
   font-family: serif;
 }
 #lista2 {
@@ -121,6 +121,7 @@ body{
 
 .list .div2 {
   height: 100px;
+  
 }
 .list:hover .div2 {
   height: 300px;
@@ -138,6 +139,7 @@ body{
 }
 .colr{
   background-image: linear-gradient(225deg, #00fcff 0, #00daff 25%, #10b7f8 50%, #2b96cc 75%, #3077a2 100%);
+  padding-left: 30px;
 }
 .colr1{
   background-image: radial-gradient(circle at 29.99% 92.9%, #fff75c 0, #ffe657 12.5%, #ffd352 25%, #febf4f 37.5%, #f1aa4b 50%, #e29648 62.5%, #d48446 75%, #c77545 87.5%, #bb6944 100%);
@@ -158,4 +160,33 @@ body{
 }
 .list:hover .oculto{
   display: block;
+}
+
+.linkA{
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+
+.linkA:link {
+  color: #fff;
+}
+
+.linkA:visited {
+  color: #fff;
+}
+
+.linkA:focus {
+  border-bottom: 1px solid;
+  background: #BAE498;
+}
+
+.linkA:hover {
+  border-bottom: 1px solid;
+  background: #fff;
+}
+
+.linkA:active {
+  background: #265301;
+  color: #CDFEAA;
 }

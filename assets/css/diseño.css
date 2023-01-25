@@ -122,7 +122,35 @@ header{
     font-size: 20px;
     font-family: serif;
   }
-
+  .linkA{
+    outline: none;
+    font-style: normal;
+    text-decoration: none;
+    padding: 2px 1px 0;
+  }
+  
+  .linkA:link {
+    color: #fff;
+  }
+  
+  .linkA:visited {
+    color: #fff;
+  }
+  
+  .linkA:focus {
+    border-bottom: 1px solid;
+    background: #BAE498;
+  }
+  
+  .linkA:hover {
+    border-bottom: 1px solid;
+    background: #FFFFFF20;
+  }
+  
+  .linkA:active {
+    background: #FFFFFF20;
+    color: #CDFEAA;
+  }
 
 
 
