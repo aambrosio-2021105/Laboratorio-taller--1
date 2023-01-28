@@ -1,7 +1,7 @@
 // Can also be used with $(document).ready()
 $(window).load(function() {
   $('.flexslider').flexslider({
-    animation: "slide",
+    animation: "fade",
     controlsContainer: $(".custom-controls-container"),
     customDirectionNav: $(".custom-navigation a"),
 
@@ -11,7 +11,7 @@ $(window).load(function() {
 });
 $(window).load(function() {
   $('.flexslider2').flexslider({
-    animation: "slide",
+    animation: "fade",
     animationLoop: false,
     itemWidth: 1,
     itemMargin: 1,
